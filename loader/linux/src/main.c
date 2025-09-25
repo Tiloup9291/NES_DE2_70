@@ -170,7 +170,7 @@ int main(int argc, char *argv[])
         return 0;
     }
 
-    if (set_custom_baudrate(h, 21428571) != 0) {
+    if (set_custom_baudrate(h, 2142857) != 0) {
         printf("error setting baudrate\n");
         close(h);
         return 1;
