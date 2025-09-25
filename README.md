@@ -10,6 +10,13 @@ Visual Studio 2022 Community Edition v143
 Use "loader"(nes_loader) to download ROMS to it over the built-in UART.<br>
 "loader"(nes_loader) also transmits joypad commands from my USB joypad to the FPGA across UART. It use the joystick library of windows (joystickapi.h).<br>
 Run from command line. Need 2 arguments : path/name of the nes rom to load and the com port of the UART adapter for the board :
+### Windows :
+find your UART com port of your board and use it in the command line.
 ```
 $> C:\path\to\the\loader\nes_loader.exe donkeykong.nes COM7
+```
+### Linux :
+find your UART file of your board and use it in the command line.
+```
+$> C:\path\to\the\loader\nes_loader donkeykong.nes /dev/ttyUSB0
 ```
