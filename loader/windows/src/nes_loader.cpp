@@ -115,7 +115,7 @@ int main(int argc, char * argv[]) {
   dcb.DCBlength = sizeof(DCB);
   dcb.ByteSize = 8;
   dcb.StopBits = ONESTOPBIT;
-  dcb.BaudRate = 2147720;
+  dcb.BaudRate = 2142857;
   dcb.fBinary = TRUE;
   if (!SetCommState(h, &dcb)) {
     printf("SetCommState failed\n");
