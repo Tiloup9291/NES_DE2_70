@@ -1,0 +1,2 @@
+# NES_DE2_70
+NES For FPGA Terasic Altera DE2-70 Cyclone 2 EP2C70F896C6
