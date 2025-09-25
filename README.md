@@ -8,8 +8,8 @@ Quartus 2 64-bit Web Edition v13sp1<br>
 Visual Studio 2022 Community Edition v143
 # Loader
 Use "loader"(nes_loader) to download ROMS to it over the built-in UART.<br>
-"loader"(nes_loader) also transmits joypad commands from my USB joypad to the FPGA across UART.<br>
-Run from command line. Need 2 arguments : path/name of the rom to load and the com port :
+"loader"(nes_loader) also transmits joypad commands from my USB joypad to the FPGA across UART. It use the joystick library of windows (joystickapi.h).<br>
+Run from command line. Need 2 arguments : path/name of the nes rom to load and the com port of the UART adapter for the board :
 ```
 $> C:\path\to\the\loader\nes_loader.exe donkeykong.nes COM7
 ```
